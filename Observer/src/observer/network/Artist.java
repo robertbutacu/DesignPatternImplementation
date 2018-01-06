@@ -33,6 +33,7 @@ public class Artist<T extends String> implements Subject {
 
     @Override
     public void addNotification(String notification) {
+        System.out.println("[ " + this.name + " ] " + notification);
         updates.add(notification);
         this.notifyObservers();
     }
