@@ -1,6 +1,5 @@
 package builder;
 
-import jdk.nashorn.internal.runtime.regexp.joni.exception.ValueException;
 import org.omg.CORBA.DynAnyPackage.InvalidValue;
 
 import java.text.ParseException;
@@ -55,8 +54,8 @@ public class PersonBuilder {
         isProgrammer = programmer;
     }
 
-    public void setIq(Integer iq)throws InvalidValue {
-        if(iq < 30)
+    public void setIq(Integer iq) throws InvalidValue {
+        if (iq < 30)
             throw new InvalidValue("Your iq is that of a monkey!!!");
 
         this.iq = iq;
