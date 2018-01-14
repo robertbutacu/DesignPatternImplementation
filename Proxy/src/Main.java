@@ -1,8 +1,6 @@
-import proxy.UltraHDVideo;
-import proxy.Video;
-import proxy.VideoProxy;
-
-import java.sql.Time;
+import virtual.proxy.UltraHDVideo;
+import virtual.proxy.Video;
+import virtual.proxy.VideoProxy;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package proxy;
+package virtual.proxy;
 
 public class VideoProxy implements Video {
 
